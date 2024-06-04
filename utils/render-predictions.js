@@ -40,4 +40,4 @@ export const renderPredictions = (predictions, ctx) => {
 const playAudio = throttle(() => {
   const audio = new Audio("/intruder-alert-181439.mp3");
   audio.play();
-}, 200000);
+}, 2000);
